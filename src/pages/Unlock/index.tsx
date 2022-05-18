@@ -4,9 +4,9 @@ import { useGetAccountInfo, DappUI } from '@elrondnetwork/dapp-core';
 import { useNavigate } from 'react-router-dom';
 
 import Extension from 'assets/Extension';
+import { ReactComponent as CustomLogo } from 'assets/img/customlogo.svg';
 import Ledger from 'assets/Ledger';
 import Logo from 'assets/Logo';
-import { ReactComponent as CustomLogo } from 'assets/img/customlogo.svg';
 import Maiar from 'assets/Maiar';
 import { Link } from 'react-router-dom';
 import { network } from 'config';
@@ -78,7 +78,7 @@ const Unlock: FC = () => {
           </a>
         </div>
         <div className={styles.description}>
-          {`Delegate Elrond (${network.egldLabel}) and earn up to 16% APY!`}
+          {`Delegate Elrond (${network.egldLabel}) and earn up to 12% APY!`}
         </div>
 
         <div className={styles.connects}>
