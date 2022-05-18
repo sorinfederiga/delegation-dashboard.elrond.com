@@ -6,8 +6,9 @@ import { useNavigate } from 'react-router-dom';
 import Extension from 'assets/Extension';
 import Ledger from 'assets/Ledger';
 import Logo from 'assets/Logo';
+import { ReactComponent as CustomLogo } from 'assets/img/customlogo.svg';
 import Maiar from 'assets/Maiar';
-
+import { Link } from 'react-router-dom';
 import { network } from 'config';
 
 import styles from './styles.module.scss';
@@ -67,13 +68,17 @@ const Unlock: FC = () => {
     <div className={styles.unlock}>
       <div className={styles.wrapper}>
         <div className={styles.logo}>
-          <Logo />
+          <CustomLogo />
         </div>
 
-        <strong className={styles.heading}>Elrond Delegation Manager</strong>
-
+        <strong className={styles.heading}>TwinsofT Delegation Manager</strong>
+        <div className={styles.heading}>
+          <a target='_blank' rel='noreferrer' href={'https://t.me/twinsoft_ro'}>
+            <strong className={styles.heading}>Telegram channel</strong>
+          </a>
+        </div>
         <div className={styles.description}>
-          {`Delegate Elrond (${network.egldLabel}) and earn up to 25% APY!`}
+          {`Delegate Elrond (${network.egldLabel}) and earn up to 16% APY!`}
         </div>
 
         <div className={styles.connects}>
