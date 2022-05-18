@@ -47,7 +47,7 @@
     "test": "react-scripts test",
     "copy-testnet-config": "cp ./src/config.testnet.tsx ./src/config.tsx",
     "copy-devnet-config": "cp ./src/config.devnet.tsx ./src/config.tsx",
-    "copy-mainnet-config": "cp ./src/config.mainnet.ts ./src/config.ts",
+    "copy-mainnet-config": "cp ./src/config.mainnet.ts ./src/config.tsx",
     "eject": "react-scripts eject",
     "lint": "eslint --ext js,ts,tsx src"
   },
