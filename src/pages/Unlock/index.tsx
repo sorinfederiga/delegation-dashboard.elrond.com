@@ -8,7 +8,6 @@ import { ReactComponent as CustomLogo } from 'assets/img/customlogo.svg';
 import Ledger from 'assets/Ledger';
 import Logo from 'assets/Logo';
 import Maiar from 'assets/Maiar';
-import { Link } from 'react-router-dom';
 import { network } from 'config';
 
 import styles from './styles.module.scss';
