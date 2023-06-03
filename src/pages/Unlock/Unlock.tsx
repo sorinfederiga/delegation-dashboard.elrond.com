@@ -11,6 +11,7 @@ import { Ledger } from 'assets/Ledger';
 import { MultiversX } from 'assets/MultiversX';
 import { Wallet } from 'assets/Wallet';
 import { xPortal } from 'assets/xPortal';
+import { Ofero } from 'assets/Ofero';
 
 import { network } from 'config';
 
@@ -106,7 +107,7 @@ export const Unlock = () => {
         </div>
 
         <strong className={styles.heading}>
-          TwinsofT Delegation Dashboard
+          Ofero Staking Delegation Dashboard
         </strong>
 
         <div className={styles.description}>
