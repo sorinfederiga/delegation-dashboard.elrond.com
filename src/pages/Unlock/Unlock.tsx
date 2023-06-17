@@ -11,7 +11,6 @@ import { Ledger } from 'assets/Ledger';
 import { MultiversX } from 'assets/MultiversX';
 import { Wallet } from 'assets/Wallet';
 import { xPortal } from 'assets/xPortal';
-import { Ofero } from 'assets/Ofero';
 
 import { network } from 'config';
 
